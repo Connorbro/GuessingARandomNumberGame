@@ -6,7 +6,17 @@ namespace GuessingCGame
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string guessTheColour = "Red";
+            string guess = "";
+            bool outOfGuesses = false;
+
+            while(guess != guessTheColour && !outOfGuesses)
+
+            {
+
+            }
+            
         }
+
     }
 }
