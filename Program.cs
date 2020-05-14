@@ -20,7 +20,7 @@ namespace GuessingCGame
                     Console.Write("Guess a Colour that I am thinking of: ");
                     guess = Console.ReadLine();
                     guessCount++;
-                }
+                 }
                 else
                 {
                     outOfGuesses = true;
