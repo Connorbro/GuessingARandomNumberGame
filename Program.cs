@@ -6,7 +6,7 @@ namespace GuessingCGame
     {
         static void Main(string[] args)
         {
-            string guessTheColour = "Red";
+            string guessTheColour = "red";
             string guess = "";
             bool outOfGuesses = false;
             var guessLimit = 3;
@@ -17,7 +17,7 @@ namespace GuessingCGame
             {
                 if(guessCount < guessLimit)
                 {
-                    Console.Write("Guess a number in between 1 and 10: ");
+                    Console.Write("Guess a Colour that I am thinking of: ");
                     guess = Console.ReadLine();
                     guessCount++;
                 }
@@ -26,7 +26,16 @@ namespace GuessingCGame
                     outOfGuesses = true;
                 }
             }
-            
+            if(guess == guessTheColour)
+
+            {
+                Console.Write("Well done you guessed correctly");
+            }
+            else
+            {
+                Console.Write("Sorry your'e wrong and ran out of guesses");
+            }
+
         }
 
     }
