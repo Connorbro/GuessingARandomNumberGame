@@ -19,6 +19,7 @@ namespace GuessingCGame
                 {
                     Console.Write("Guess a number in between 1 and 10: ");
                     guess = Console.ReadLine();
+                    guessCount++;
 
 
 
