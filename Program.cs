@@ -32,7 +32,7 @@ namespace GuessingCGame
                 Console.Write("Well done you guessed correctly");
             }
             else
-            {
+             {
                 Console.Write("Sorry your'e wrong and ran out of guesses");
             }
 
